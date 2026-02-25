@@ -1,0 +1,38 @@
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.badge {
+    font-size: 0.9em;
+    padding: 5px 10px;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+.btn-group .btn {
+    margin-right: 2px;
+}
+
+@media (max-width: 768px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btn-group .btn {
+        margin-bottom: 5px;
+        border-radius: 5px !important;
+    }
+}
